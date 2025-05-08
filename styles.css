@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #ecf0f3;
+    padding: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1100px;
+  }
+  
+  .card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    color: #333;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .card .title {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 1rem;
+  }
+  
+  .card .quote {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card .desc {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  /* Themed colors */
+  .purple {
+    background: hsl(263, 55%, 52%);
+    color: white;
+  }
+  
+  .gray {
+    background: hsl(217, 19%, 35%);
+    color: white;
+  }
+  
+  .white {
+    background: white;
+    color: hsl(219, 29%, 14%);
+  }
+  
+  .dark {
+    background: hsl(219, 29%, 14%);
+    color: white;
+  }
+  
+  
+  
+  
